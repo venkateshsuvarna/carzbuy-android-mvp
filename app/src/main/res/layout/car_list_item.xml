@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/carzbuy_logo"
+        android:id="@+id/iv_carlist_item_car_image"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_carlist_item_car_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:text="Car Name"
+                android:textSize="20dp"
+                android:textColor="#ED3B3B"/>
+
+            <TextView
+                android:id="@+id/tv_carlist_item_car_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:text="Car Year"
+                android:textSize="15dp"
+                android:textColor="#ED3B3B"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_carlist_item_miles"
+                android:textSize="17dp"
+                android:text="123456"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:textColor="#ED3B3B"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_carlist_item_condition"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:gravity="right"
+                android:layout_marginRight="10dp"
+                android:text="Good"
+                android:textSize="15dp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
